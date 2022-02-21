@@ -2,6 +2,10 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
 }
 
 .status-bar__column {
@@ -22,4 +26,8 @@
 
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
+}
+
+.fa-bolt {
+  margin-right: 5px;
 }
