@@ -40,6 +40,9 @@
   height: 60px;
   border-radius: 25px;
 }
+.user-component__margin {
+  margin-right: 10px;
+}
 
 .user-component__title--not-bold {
   font-weight: 400;
