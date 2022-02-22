@@ -19,3 +19,16 @@
   font-size: 32px;
   font-weight: 600;
 }
+
+.dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  top: 20px;
+  right: 90px;
+}
