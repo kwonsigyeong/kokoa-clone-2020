@@ -20,15 +20,15 @@
   font-weight: 600;
 }
 
-.dot {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  background-color: tomato;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  top: 20px;
-  right: 90px;
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateCog 1s linear infinite;
 }
